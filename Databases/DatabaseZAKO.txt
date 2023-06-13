@@ -1,0 +1,144 @@
+Połączeniem, których dwóch regularyzatorów jest Elastic Net?
+4
+L1 i L2
+Tichonowa i L1
+Tichonowa i L2
+żadnych z powyższych
+a
+
+Jaki algorytm pozwala na dostrajanie parametrów sieci neuronowej podczas treningu?
+4
+propagacja wsteczna błędu
+propagacja w przód
+regularyzacja
+zanikanie gradientu
+a
+
+Czym charakteryzuje się technologia elasticsearch?
+4
+Relacyjna baza danych będąca projektem open-source
+Nierelacyjna baza danych, która dzieli indeksy na odłamki (shards)
+Relacyjna baza danych, która dzieli dokumenty na indeky
+Nierelacyjna baza danych mogąca pracować w trybie klastra (cluster)
+b
+
+Kwantowe bramki logiczne są reprezentowane matematycznie jako:
+4
+wektory
+macierze
+liczby zespolone
+przestrzenie wektorowe
+b
+
+Qubit to:
+4
+Czteroelementowy rejestr kwantowy
+Typ kwantowej bramki logicznej
+Podstawowa jednostka informacji w komputerach kwantowych
+Splątana para bitów
+c
+
+Jakie są główne zadania fazy DXE w architekturze UEFI?
+5
+Inicjalizacja sprzętu i konfiguracja pamięci RAM.
+Wybór urządzenia rozruchowego i uruchomienie systemu operacyjnego.
+Ładowanie i uruchamianie sterowników sprzętowych.
+Zarządzanie interfejsami I/O i obsługa urządzeń peryferyjnych.
+Żadna z powyższych
+c
+
+Która z poniższych odpowiedzi przedstawia poprawną kolejność faz bootowania w architekturze UEFI?
+5
+PEI, BDS, DXE, SEC, TSL
+SEC, BDS, DXE, TSL, PEI
+PEI, DXE, SEC, TSL, BDS
+SEC, PEI, DXE, BDS, TSL
+Żadna z powyższych
+d
+
+Środowiskiem uruchomieniowym dla kontenera w klastrze Kubernetesa jest:
+4
+pod
+node
+service
+ingress
+a
+
+Procesem w węźle głównym, który odpowiada za umiejscowienie oraz zainicjalizowanie i uruchomienia poda w klastrze Kubernetesa jest:
+4
+etcd
+API server
+scheduler
+controller manager
+c
+
+Jakiego typu architektura używana jest najczęściej w nowoczesnych systemach syntezy głosu z uczeniem maszynowym?
+4
+HMM
+Autoenkoder
+Sieci bayesowskie
+Systemy oparte o logikę rozmytą
+b
+
+Czym jest ATR (Answer To Reset)?
+4
+Sygnał wysyłany przez terminal w celu zresetowania karty
+Sygnał wysyłany przez kartę w celu zresetowania terminala
+Wiadomość wysyłana przez kartę po otrzymaniu sygnału zerującego
+Jeden ze sposobów kodowania wykorzystywany w kartach inteligentnych
+c
+
+Który z poniższych typów plików nie należy do struktury systemu plików kart inteligentnych?
+4
+MF (Master File)
+DF (Directory File)
+EF (Elementary File)
+IF (Information File)
+d
+
+Czym się różni obraz od konteneru dockera:
+4
+kontener jest gotowym środowiskiem uruchomieniowym dla aplikacji
+obraz jest gotowym środowiskiem uruchomieniowym dla aplikacji
+kontener jest statycznym szablonem do tworzenia obrazów
+obraz jest statycznym szablonem do tworzenia kontenerów
+a,b
+
+Czym różni się kontener od maszyny wirtualnej
+4
+kontenery współdzielą kernel systemu zyskując na izolacji
+kontenery współdzielą kernel systemu tracąc na izolacji
+maszyny wirtualne współdzielą kernel systemu zyskując na izolacji
+maszyny wirtualne współdzielą kernel systemu tracąc na izolacji
+b
+
+Która linijka w pliku Dockerfile utworzy obraz z obrazu bazowego ubuntu
+4
+COPY ubuntu:22.04
+ENTRYPOINT ubuntu:22.04
+FROM ubuntu:22.04
+BASEIMAGE ubuntu:22.04
+c
+
+Które polecenie/a utworzy/ą kontener z obrazu o nazwie my_container
+5
+docker build my_container
+docker start my_container
+docker restart my_container
+docker my_container
+docker run my_container
+e
+
+Jaki obiekt pozwala nam na wysyłanie zadań do akceleratora?
+3
+kolejka
+lista
+strumień
+a
+
+Który zasób jest widoczny jednocześnie na hoście i akceleratorze?
+3
+USM shared pointer
+Global memory
+Registered memory
+a
