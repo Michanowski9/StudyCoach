@@ -42,7 +42,7 @@ def getLoadedQuestion(file):
     return result	
     
 def loadInput(databasePath):
-    file = open(databasePath)
+    file = open(databasePath, 'r', errors="ignore")
     
     questions = []
     while True:
