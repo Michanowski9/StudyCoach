@@ -1,5 +1,6 @@
 import os
 import random
+import sys
 
 from question import *
 
@@ -83,7 +84,10 @@ if __name__ == '__main__':
     shuffleQuestions(questions)
 
     while True:
-        os.system('clear')
+        if sys.platform == 'win32':
+            os.system('cls')
+        else:
+            os.system('clear')
         questions[0].shuffle()
 
         printStatistics(questions)
