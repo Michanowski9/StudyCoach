@@ -43,7 +43,7 @@ def getLoadedQuestion(file):
     return result	
     
 def loadInput(databasePath):
-    file = open(databasePath, 'r', errors="ignore")
+    file = open(databasePath, 'r', errors="ignore", encoding='utf-8')
     
     questions = []
     while True:
